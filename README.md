@@ -5,6 +5,7 @@ ABOUT
 This bash script counts the number of word occurrence in a file passed as an argument, sorted from the most frequent to the least frequent.
 
 REQUIREMENT
+
 A bash shell
 
 BUILD AND RUN
