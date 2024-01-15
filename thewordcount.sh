@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#declare a dictionary to hold the words as key and their frequency as vlues
+#declare a dictionary to hold the words as key and their frequency as values
 declare -A words_freq
 #convert the content into a column of unique words and remove punctuations through a loop
 for word in $(xargs -n1 < $1 | tr -d '[:punct:]' | sort -fu)
